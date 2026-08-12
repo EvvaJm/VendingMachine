@@ -8,6 +8,7 @@ int choice;
 int price; 
 int coins;
 int total = 0;
+int change;
   
 // this section prints out the menu for the user 
 printf("*** Please Make A Selection***\n");
@@ -57,13 +58,17 @@ while (total < price) {
     total += 200;
     
   } else {
-    printf("ERROR: Please Enter a Valid Coin");
+    printf("ERROR: Please Enter a Valid Coin\n");
   }
-
-//Test 
-  printf("%d\n", total);
-
-  return 0; 
 } 
+
+  if (total > price){
+    change = total - price;
+    printf("Your change is %d cents\n", change);
+    printf("Enjoy your snack :)");
+    
+  } else {
+  printf("Enjoy your snack :)");
+  }
 }
 
