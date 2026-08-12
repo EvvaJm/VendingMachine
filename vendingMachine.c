@@ -61,7 +61,7 @@ while (total < price) {
   }
 
 //Test 
-  printf("%d", total);
+  printf("%d\n", total);
 
   return 0; 
 } 
