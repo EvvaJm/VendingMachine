@@ -34,7 +34,7 @@ if ( choice == 1){
 } 
 
   
-while (total > price) {
+while (total < price) {
   
   printf("Please enter your Canadian coins (5,10,25,1 or 2) one at a time\n");
   printf("coins: ");
