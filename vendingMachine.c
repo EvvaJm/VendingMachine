@@ -6,6 +6,7 @@ int main (void){
 // variables 
 int choice;
 int price; 
+int coins;
   
 // this section prints out the menu for the user 
 printf("*** Please Make A Selection***\n");
@@ -30,3 +31,8 @@ if ( choice == 1){
 } else {
   price = 100;
 } 
+
+printf("Please enter your Canadian coins (5,10,25,1 or 2) one at a time\n");
+printf("coins: ");
+scanf ("%d", &coins);
+
