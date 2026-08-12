@@ -64,4 +64,5 @@ while (coins > total) {
 
   return 0; 
 } 
+}
 
