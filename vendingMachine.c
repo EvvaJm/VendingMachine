@@ -17,7 +17,7 @@ printf(" Enter your choice: ");
 scanf("%d", &choice);
 
 // Makes sure the input is valid
-while (choice < 1 || choice > 5){
+while (choice < 1 || choice > 4){
 printf("ERROR: Invalid number\n");
 printf(" Enter your choice: ");
 scanf("%d", &choice);
